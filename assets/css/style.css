@@ -1,0 +1,55 @@
+
+/*LOS COLORS SON ESTOS:
+ Color Boton Next: #ff00ba
+Boton Google Maps: #8763ab
+Mensaje Google Maps: #490086
+Purple: #4f0083  */
+
+/* ..........seccion phone2.html............ */
+
+#codigo{
+	height: 100vh;
+}
+
+.seccion-codigo{
+	text-align: center;
+}
+
+.condigo-h2{
+	text-align: center;
+}
+
+.codigo-icono{
+	text-align: left;
+}
+
+#codigo h2{
+	color: black;
+	font-weight: bold;
+	margin-right: 0;
+	font-size: 1em;
+}
+
+#codigo input{
+	font-size: 2.5em;
+	width: 70px;
+}
+
+.lab{
+	font-size: 2em;
+}
+
+/*para que el boton a ocupe 100% del ancho de pantalla*/
+.btn-verify{
+	background-color: #ff00ba;
+	color: #fff;
+	width: 100%;
+	margin-top: 100%;
+	margin-left:0;
+	margin-right:0;
+	padding: 20px 0;
+	display:block;
+	text-align:center;
+}
+
+/* .........FIN seccion phone2.html.......... */
