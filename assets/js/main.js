@@ -56,18 +56,24 @@ $(document).ready(function() {
 /*........................................ */
 
 $(document).ready(function() {
+	$('.modal').modal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal
+        startingTop: '4%', // Starting top style attribute
+        endingTop: '100%' // Ending top style attribute
+    });
+
+	
 	$("#btn-save").click(function() {
 		localStorage.setItem('nombres', $('#nombre3').val());
 		$('#nombre3').val("");	
 	});
 
+	//Imprime el nombre
 	var nom = localStorage.getItem('nombres');
 	$('#imprimir').html(nom);
 
 	$("#btn-verify").click(function(event) {
-		//localStorage.codigo = $('#codigo-input').val();
 		localStorage.setItem('codigos', $('#codigo-input').val());
-		//$("#imprimir").html(localStorage.name + localStorage.codigo);	
 	});
 	
 	var codig = localStorage.getItem('codigos');
