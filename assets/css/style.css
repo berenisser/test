@@ -7,27 +7,27 @@ Purple: #4f0083  */
 
 /* ..........seccion phone2.html............ */
 
-#codigo{
-	height: 100vh;
-}
 
 .seccion-codigo{
 	text-align: center;
 }
 
-.condigo-h2{
+.codigo-h2{
 	text-align: center;
 }
 
-.codigo-icono{
-	text-align: left;
+#codigo h1{
+	font-size: 1.4rem;
+    margin: 0.7rem;
+    font-weight: 700;
 }
 
-#codigo h2{
-	color: black;
-	font-weight: bold;
-	margin-right: 0;
-	font-size: 1em;
+#codigo hr{
+	width: 100%;
+}
+
+#codigo i{
+	font-size: 2.5rem;
 }
 
 #codigo input{
@@ -44,12 +44,14 @@ Purple: #4f0083  */
 	background-color: #ff00ba;
 	color: #fff;
 	width: 100%;
-	margin-top: 100%;
+	
 	margin-left:0;
 	margin-right:0;
 	padding: 20px 0;
 	display:block;
 	text-align:center;
+	position: fixed;
+    bottom: 0;
 }
 
 /* .........FIN seccion phone2.html.......... */

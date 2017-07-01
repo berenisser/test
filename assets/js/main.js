@@ -57,21 +57,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$("#btn-save").click(function() {
-		//var nombrecito = $('#nombre3').val();
-		//localStorage.nombre = nombrecito;
 		localStorage.setItem('nombres', $('#nombre3').val());
-		//$('#imprimir3').html(localStorage.nombre);	
+		$('#nombre3').val("");	
 	});
 
 	var nom = localStorage.getItem('nombres');
-		$('#imprimir').html(nom);
+	$('#imprimir').html(nom);
 
 	$("#btn-verify").click(function(event) {
 		//localStorage.codigo = $('#codigo-input').val();
 		localStorage.setItem('codigos', $('#codigo-input').val());
-		//imprimir
-		//$("#imprimir").html(localStorage.name + localStorage.codigo);
-		
+		//$("#imprimir").html(localStorage.name + localStorage.codigo);	
 	});
 	
 	var codig = localStorage.getItem('codigos');
